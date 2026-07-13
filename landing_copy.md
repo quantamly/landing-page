@@ -9,6 +9,11 @@ Sections in this file:
 2. Credibility strip (replaces the old stats block; tiles are now SPLIT)
 3. Testimonials (BUILD BUT KEEP COMMENTED OUT — see instructions)
 4. Story
+5. Methodology & Clinical Approach
+6. Core Services
+7. Educational Workshops & Programs
+8. Five Content & Training Pillars
+9. Contact
 
 ---
 
@@ -134,3 +139,190 @@ Those therapeutic conversations completely changed the trajectory of Quan’s li
 Năm 2019, Quân trở về Việt Nam. Hiện tại, anh dành phần lớn thời gian để lắng nghe và đồng hành cùng các bạn trẻ qua các buổi tham vấn cá nhân 1-1, đồng thời tham gia tổ chức các buổi hội thảo, talkshow và chương trình đào tạo với mong muốn đưa những kiến thức thực tế về sức khỏe tinh thần đến gần hơn với cộng đồng.`
 - EN: `Quan earned his BA in Psychology from Brandeis University, followed by a Master of Social Work with a clinical focus from the CUNY Silberman School of Social Work, and became a Licensed Master Social Worker (LMSW) in New York State. He spent years working directly in high-needs communities across Harlem and Jamaica, specializing in psychological counseling for individuals living with severe mental illnesses like bipolar disorder, schizophrenia, complex trauma, severe anxiety and depression.
 In 2019, Quan returned home to Vietnam. Today, he devotes most of his time to listening to and walking alongside young adults through private 1-on-1 counseling, while also organizing workshops, talks, and training programs to bring practical mental health knowledge closer to the community.`
+
+---
+
+## 5. Methodology & Clinical Approach
+
+- Visual Diagram Rings (Systemic Framework):
+  - Văn hóa · Xã hội (EN: Culture · Society)
+
+  - Cộng đồng (EN: Community)
+
+  - Nhà trường · Công việc (EN: School · Work)
+
+  - Gia đình (EN: Family)
+
+  - Cá nhân (EN: Individual)
+
+- Eyebrow: Mô hình thực hành (EN: Practice model)
+
+- Section Title (H2): Công tác Xã hội Lâm sàng — một góc nhìn toàn cảnh về sức khỏe tâm thần (EN: Clinical Social Work — a holistic lens on mental health)
+
+- Approach Paragraph: ThS. Quân không nhìn khó khăn của bạn như một vấn đề tách rời, mà đặt nó trong toàn bộ bối cảnh sống: cơ thể, suy nghĩ, cảm xúc, các mối quan hệ và môi trường xung quanh bạn. Đó là tinh thần của Công tác Xã hội Lâm sàng — và cũng là lý do mỗi lộ trình trị liệu được thiết kế riêng cho từng người. (EN: Mr. Quan doesn't treat your difficulty as an isolated problem — he places it within your whole context: your body, your thoughts, your emotions, your relationships, and the environment around you. That's the spirit of Clinical Social Work, and the reason every course of therapy is designed around the individual.)
+
+- Frameworks Intro: ThS. Quân kết hợp linh hoạt các phương pháp đã được kiểm chứng dựa trên tình trạng và nhu cầu cụ thể của bạn: (EN: Mr. Quan flexibly combines evidence-based approaches based on your specific status and needs:)
+
+- Modalities List:
+  - Liệu pháp Chấp nhận và Cam kết (ACT) (EN: Acceptance and Commitment Therapy (ACT))
+
+  - Liệu pháp Nhận thức Hành vi (CBT) (EN: Cognitive Behavioral Therapy (CBT))
+
+  - Liệu pháp Kích hoạt Hành vi (BA) (EN: Behavioral Activation (BA))
+
+  - Liệu pháp dựa trên Tiến trình (PBT) (EN: Process-Based Therapy (PBT))
+
+## 6. Core Services
+
+- Eyebrow: Lĩnh vực hoạt động (EN: What I do)
+
+- Section Title (H2): Ba mảng dịch vụ chính (EN: Three core service areas)
+
+- Lead Paragraph: Từ cá nhân đến tổ chức và cộng đồng — mỗi mảng dịch vụ đều được xây dựng dựa trên khoa học thực chứng và sự đồng hành chuyên nghiệp. (EN: From individuals to organizations and communities — each rooted in evidence-based practice and genuine empathy.)
+
+### Service Pillar 01: Tham vấn tâm lý cá nhân (EN: Individual Psychological Counseling)
+
+- Description: Đồng hành cùng thanh thiếu niên và người trưởng thành vượt qua lo âu, trầm cảm, sang chấn và khó khăn trong các mối quan hệ. (EN: Walking with adolescents and adults through anxiety, depression, trauma, and relationship difficulties.)
+
+- Key Highlights:
+  - 30+ ca tiếp nhận mỗi năm (EN: 30+ cases accepted each year)
+
+  - Tỉ lệ phục hồi cao, quay lại học tập & nghề nghiệp (EN: High recovery rate, return to study & career)
+
+  - Phục hồi chức năng trong đời sống & hôn nhân (EN: Restored functioning in life & marriage)
+
+- Ethical Standard: Bảo mật tuyệt đối theo đạo đức nghề nghiệp & chuẩn mực của Hiệp hội Công tác Xã hội Hoa Kỳ (NASW). (EN: Full confidentiality, per professional ethics & NASW (USA) standards.)
+
+### Service Pillar 02: Tư vấn triển khai chương trình SKTT (EN: Mental-Health Program Consulting)
+
+- Description: Tư vấn xây dựng và triển khai chương trình chăm sóc sức khỏe tinh thần cho doanh nghiệp, tổ chức phi chính phủ và đối tác cộng đồng. (EN: Consulting on the design and rollout of mental-health care programs for businesses, NGOs, and community partners.)
+
+- Key Highlights:
+  - Dẫn dắt Dự án Đẹp (NIMH R01 MH112630): Triển khai tại 36 trạm y tế xã phường trên 2 tỉnh miền Bắc, 200+ cán bộ được tập huấn, 14.000+ lượt sàng lọc · 1.300+ trường hợp can thiệp · 70%+ trường hợp cải thiện tình trạng trầm cảm (EN: Led the DEP Project (NIMH R01 MH112630): Implemented at 36 commune health stations across 2 Northern Vietnam provinces, 200+ health workers trained, 14,000+ screened · 1,300+ treated · 70%+ improved in depression symptoms)
+
+  - Chuyên gia tư vấn SKTT cho dự án EpiC (FHI 360): Cải thiện quy trình sàng lọc SKTT tại các phòng khám điều trị HIV và PrEP, thiết lập bản đồ dịch vụ SKTT và mạng lưới chuyển gửi tới các cơ sở chăm sóc SKTT công tại TP. HCM (EN: Mental-health consultant for EpiC (FHI 360): Improved mental health screening at HIV and PrEP clinics, implemented mental health service mappings and referral network to public clinics and hospitals in HCMC)
+
+### Service Pillar 03: Đào tạo & Giảng dạy (EN: Training & Teaching)
+
+- Description: Thiết kế và giảng dạy các khóa đào tạo, workshop và talkshow về sức khỏe tinh thần cho nhân lực chuyên môn và công chúng. (EN: Designing and delivering training, workshops and talks on mental health for professionals and the public.)
+
+- Key Highlights:
+  - Diễn giả hợp tác cùng Intellect Vietnam (EN: Contracted Speaker with Intellect Vietnam)
+
+  - Giảng viên thỉnh giảng tại VinUni & HUPH (EN: Guest lecturer at VinUni & HUPH)
+
+## 7. Educational Workshops & Programs
+
+- Eyebrow: Workshop & Chương trình (EN: Workshops & Programs)
+
+- Section Title (H2): Các chương trình đã thiết kế & dẫn dắt (EN: Programs designed & delivered)
+
+### Group A: Khóa học & Chương trình đào tạo (EN: Courses & Training Programs)
+
+1. Sơ cứu Tâm lý (PFA) (EN: Psychological First Aid (PFA))
+  - Tag: Sơ cứu Tâm lý (EN: Psychological First aid)
+
+  - Description: Đào tạo kỹ năng hỗ trợ ban đầu cho người đang gặp khó khăn về tinh thần và nhận biết thời điểm cần can thiệp chuyên môn, dựa trên mô hình Sơ cứu Tâm lý 5 bước của ĐH Johns Hopkins. (EN: Skills to give initial support to people in distress and recognize when professional help is needed, based on the 5-step PFA model by Johns Hopkins University.)
+
+2. Liệu pháp Kích hoạt Hành vi (BA) (EN: Behavior Activation (BA))
+  - Tag: Trầm cảm (EN: Depression Counseling)
+
+  - Description: Phương pháp dựa trên bằng chứng, hiệu quả với trầm cảm và lo âu nhẹ–vừa; xây dựng lối sống lành mạnh và phòng ngừa tái phát. (EN: An evidence-based intervention effective for mild-to-moderate depression and anxiety; building a healthy lifestyle and preventing mental health relapse.)
+
+3. Kỹ năng Tham vấn Tình cảm (EN: Relationship Counseling Skills)
+  - Tag: Tình cảm (EN: Relationships)
+
+  - Description: Khóa nhập môn kỹ năng tham vấn tình cảm theo cách tiếp cận của liệu pháp Chấp nhận và Cam kết (ACT) tích hợp yếu tố văn hóa Việt Nam trong quan hệ tình cảm . (EN: An introductory course on the ACT approach to relationship counseling, integrating the cultural context of Vietnamese romantic relationships.)
+
+4. Kỹ năng Nhận thức & Quản lý Cảm xúc (EN: Cognitive Skills for Emotion Management)
+  - Tag: Quản lý Cảm xúc (EN: Emotion management)
+
+  - Description: Ứng dụng các kỹ năng tâm lý học nhận thức để nhận diện và điều hòa cảm xúc, vượt qua những bẫy suy nghĩ và niềm tin giới hạn. (EN: Applying cognitive skills to recognize and regulate emotions and overcome everyday thinking traps.)
+
+5. Sức khoẻ Tinh thần cho Doanh nghiệp (EN: Resilience & Wellness for Corporations)
+  - Tag: Doanh nghiệp (EN: Corporates)
+
+  - Description: Trang bị cho đội ngũ nhân viên kỹ năng quản lý căng thẳng, duy trì động lực và cân bằng công việc – cuộc sống. (EN: Equipping teams with skills to manage stress, sustain motivation, and balance work and life.)
+
+6. Lớp Kỹ năng Tham vấn Cơ bản (EN: Basic Counseling Skills Class)
+  - Tag: Đào tạo chuyên môn (EN: Professional)
+
+  - Description: Đào tạo sinh viên cao học các ngành nghề trợ giúp: từ sàng lọc & đánh giá ban đầu, kỹ năng nền tảng đến thực hành Liệu pháp Kích hoạt Hành vi. (EN: Training for graduate students in the helping professions: from screening and initial assessment to core skills and practicing Behavior Activation.)
+
+### Group B: Workshop & Talk đã thực hiện (EN: Workshops & Talks delivered)
+
+- 2025: Diễn giả cho các Khách hàng Doanh nghiệp Đa quốc gia (EN: Speaker for Corporate MNC Clients) — Intellect
+
+- 2024: Ứng dụng Tâm lý học giúp Nữ Lãnh đạo Thành công và Hạnh phúc (EN: Applied Psychology for Successful & Happy Women Leaders) — Aus4Skills · Hội Cựu Du học sinh Úc (EN: Aus4Skills · Australian Alumni)
+
+- 2024: Nhận biết và Vượt qua Bẫy Nhận thức — Sống Quân bình và Hạnh phúc (EN: Recognizing & Overcoming Cognitive Traps — Living Balanced & Happy) — Gymhaus
+
+- 2023: Phương pháp Cải thiện Động lực Học tập (EN: Improving Learning Motivation) — Trường Quản trị và Kinh doanh, Đại học Quốc gia Hà Nội (EN: Hanoi School of Business and Management, VNU)
+
+- 2022: Xây dựng Lối sống Lành mạnh (EN: Building a Healthy Lifestyle) — Deloitte Vietnam
+
+- 2022: Quản lý Động lực trong Tập luyện Thể chất (EN: Managing Motivation in Physical Training) — Swequity
+
+- 2021: Quản lý Căng thẳng trong Đại dịch COVID (EN: Managing Stress during the COVID Pandemic) — Abeo Vietnam
+
+## 8. Five Content & Training Pillars
+
+- Eyebrow: Năm trụ cột đào tạo (EN: Five training pillars)
+
+- Section Title (H2): Một khung nội dung, năm hướng đi (EN: One framework, five directions)
+
+- Lead Paragraph: Mỗi trụ cột là một nhóm chủ đề Talk 60 phút hoặc Workshop 120 phút, may đo theo từng nhóm đối tượng. (EN: Each pillar is a cluster of topics delivered as a 60-minute Talk or a 120-minute Workshop, tailored to each audience.)
+
+### Pillar 01: Hiểu mình & Vững vàng (EN: Self-Understanding & Resilience)
+
+- Quản lý căng thẳng (EN: Stress management)
+
+- Điều hoà cảm xúc (EN: Emotion regulation)
+
+- Tư duy phát triển (EN: Growth mindset)
+
+- Trắc ẩn với bản thân (EN: Self-compassion)
+
+### Pillar 02: Cảm xúc & Kết nối (EN: Emotion & Connection)
+
+- Trí tuệ cảm xúc (EN: Emotional intelligence)
+
+- Lắng nghe chủ động (EN: Active listening)
+
+- Ranh giới cá nhân (EN: Personal boundaries)
+
+- Những câu chuyện khó nói (EN: Difficult conversations)
+
+### Pillar 03: SKTT nơi làm việc (EN: Workplace Mental Health)
+
+- Nâng cao nhận thức về SKTT (EN: Raising awareness)
+
+- Tự chăm sóc và quản lý cảm xúc (EN: Self-care and emotion management)
+
+- Phòng ngừa kiệt sức (EN: Burnout prevention)
+
+- Sơ cứu Tâm lý tại công sở (EN: Psychological First Aid in the workplace)
+
+### Pillar 04: Lãnh đạo Thấu cảm (EN: Empathetic Leadership)
+
+- Xây văn hóa an toàn tâm lý (EN: Building psychological safety)
+
+- Dẫn dắt qua biến động (EN: Leading through changes)
+
+- Nhận diện & hỗ trợ sớm (EN: Early recognition & support)
+
+- Trí tuệ cảm xúc cho lãnh đạo (EN: Emotional intelligence for leaders)
+
+### Pillar 05: Trường học, Gia đình & Cộng đồng (EN: Schools, Family & Community)
+
+- Năng lực cảm xúc–xã hội (EN: Social-emotional skills)
+
+- Đồng hành cùng giáo viên (EN: Supporting teachers)
+
+- Hỗ trợ cha mẹ (EN: Supporting parents)
+
+- Trẻ em & vị thành niên (EN: Children & adolescents)
+
+## 9. Contact me (VN: Liên hệ)
+
+- Lead Paragraph: Dù bạn có nhu cầu tham vấn cho bản thân và người thân, hay mong muốn xây dựng chương trình sức khoẻ tinh thần cho tổ chức của mình - hãy nhắn cho ThS. Quân. (EN: Whether you’re seeking counseling for yourself or a loved one, or wanting to build a mental wellness program for your organization - reach out to Mr. Quan)
