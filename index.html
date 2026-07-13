@@ -164,6 +164,20 @@
   .tcard::before{content:"\201C";position:absolute;top:12px;left:28px;font:italic 700 54px/1 Platypi,Georgia,serif;color:rgba(22,70,51,.16)}
   .tcard p{position:relative;font:italic 400 19px/1.55 Platypi,Georgia,serif;color:var(--ink-soft);margin:28px 0 18px}
   .tcard footer{font:600 13px/1.4 Inter,sans-serif;color:var(--eyebrow);letter-spacing:.02em}
+  .t-note{font:400 13.5px/1.5 Inter,sans-serif;color:var(--muted);margin:0 0 26px;max-width:640px}
+  .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .story-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:30px 30px 28px;display:flex;flex-direction:column}
+  .story-card .who{font:600 16px/1.3 Platypi,Georgia,serif;color:var(--green)}
+  .story-card .ctx{display:block;font:400 13px/1.45 Inter,sans-serif;color:var(--muted);margin-top:4px}
+  .story-card .reflection{position:relative;font:italic 400 18px/1.6 Platypi,Georgia,serif;color:var(--ink-soft);margin:18px 0 0;padding-top:28px}
+  .story-card .reflection::before{content:"\201C";position:absolute;top:0;left:-2px;font:italic 700 50px/1 Platypi,Georgia,serif;color:rgba(22,70,51,.16)}
+  .story-card.wide{grid-column:1/-1}
+  .story-card.wide .reflection{max-width:82ch;font-size:19px}
+  .advice-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .advice-card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 var(--r) var(--r) 0;padding:28px 30px;display:flex;flex-direction:column}
+  .advice-card .lbl{display:block;font:600 11px/1.3 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--eyebrow);margin-bottom:12px}
+  .advice-card p{font:400 15px/1.66 Inter,sans-serif;color:var(--body);margin:0 0 18px}
+  .advice-card footer{margin-top:auto;font:600 13.5px/1.4 Platypi,Georgia,serif;color:var(--green)}
 
   /* MEDIA */
   .media-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:44px}
@@ -240,7 +254,8 @@
     .stat-grid{grid-template-columns:repeat(2,1fr);gap:24px 0}
     .stat{border-bottom:1px solid rgba(245,241,232,.16)}
     .stat:nth-child(2){border-right:0}
-    .media-grid,.tgrid,.ccards{grid-template-columns:1fr}
+    .media-grid,.tgrid,.ccards,.story-grid,.advice-grid{grid-template-columns:1fr}
+    .story-card.wide .reflection{max-width:none;font-size:18px}
     .cred-grid{grid-template-columns:1fr;gap:32px}
   }
   @media(max-width:680px){
@@ -515,11 +530,66 @@
   </div>
 </section>
 
-<!-- ============ TESTIMONIALS (catalogue — organizations & roles, consent-safe) ============ -->
-<section class="sec">
+<!-- ============ TESTIMONIALS — 3 blocks: client stories · advice · community feedback ============ -->
+<!-- BLOCK 1 · Client stories (Chị T · M · A) — published with consent, anonymized -->
+<section class="sec" id="testimonials">
   <div class="wrap">
     <p class="eyebrow" data-vi="Cảm nhận" data-en="Testimonials">Cảm nhận</p>
-    <h2 class="h2" style="margin-bottom:40px" data-vi="Người tham gia nói gì" data-en="What people say">Người tham gia nói gì</h2>
+    <h2 class="h2" data-vi="Chia sẻ từ các thân chủ cũ" data-en="Words from former clients">Chia sẻ từ các thân chủ cũ</h2>
+    <p class="t-note" data-vi="Những chia sẻ từ thân chủ và gia đình — với sự đồng ý và đã ẩn danh." data-en="Shared by former clients and their families — with permission and anonymized.">Những chia sẻ từ thân chủ và gia đình — với sự đồng ý và đã ẩn danh.</p>
+    <div class="story-grid">
+      <article class="story-card wide">
+        <div>
+          <span class="who" data-vi="Chị T · Phụ huynh của H" data-en="Ms. T · Parent of H">Chị T · Phụ huynh của H</span>
+          <span class="ctx" data-vi="Con trai vượt qua giai đoạn khó khăn về sức khỏe tinh thần khi du học tại Mỹ" data-en="Her son moved through a mental-health crisis while studying in the U.S.">Con trai vượt qua giai đoạn khó khăn về sức khỏe tinh thần khi du học tại Mỹ</span>
+        </div>
+        <blockquote class="reflection" data-vi="Sau một năm nỗ lực, kết quả đã đến với H. Con đã tốt nghiệp đúng ngành mình mong muốn — không phải chọn một ngành nhẹ hơn để ra trường. Mỗi học kỳ 7 môn, học cả kỳ hè lẫn kỳ đông, và con đã tốt nghiệp đúng hẹn với bố mẹ. Cảm ơn Quân đã giúp đỡ và đồng hành cùng con trong suốt thời gian qua." data-en="After a year of effort, the results came for H. He graduated in exactly the major he wanted — without dropping to an easier one just to get through. Seven courses a semester, studying through summer and winter terms, and he graduated right on time as he'd promised his parents. Thank you, Quan, for helping and walking alongside him all this time.">Sau một năm nỗ lực, kết quả đã đến với H. Con đã tốt nghiệp đúng ngành mình mong muốn — không phải chọn một ngành nhẹ hơn để ra trường. Mỗi học kỳ 7 môn, học cả kỳ hè lẫn kỳ đông, và con đã tốt nghiệp đúng hẹn với bố mẹ. Cảm ơn Quân đã giúp đỡ và đồng hành cùng con trong suốt thời gian qua.</blockquote>
+      </article>
+      <article class="story-card">
+        <div>
+          <span class="who" data-vi="Chị M · 41 tuổi" data-en="Ms. M · 41">Chị M · 41 tuổi</span>
+          <span class="ctx" data-vi="Vượt qua kiệt sức trong công việc & chăm sóc người thân" data-en="Moved through burnout at work and in caregiving">Vượt qua kiệt sức trong công việc & chăm sóc người thân</span>
+        </div>
+        <blockquote class="reflection" data-vi="Tôi tìm lại được ý nghĩa và những giá trị mới trong cuộc sống, từ đó thay đổi góc nhìn về nhiều điều từng là khó khăn — chuyện gia đình, công việc, các mối quan hệ. Giờ cuộc sống nhẹ nhàng hơn, có nhiều niềm vui nho nhỏ, và tôi thấy mình cân bằng hơn." data-en="I rediscovered meaning and new values in my life, and that shifted how I see many things that once felt so hard — family, work, relationships. Life feels lighter now, full of small joys, and I feel more balanced.">Tôi tìm lại được ý nghĩa và những giá trị mới trong cuộc sống, từ đó thay đổi góc nhìn về nhiều điều từng là khó khăn — chuyện gia đình, công việc, các mối quan hệ. Giờ cuộc sống nhẹ nhàng hơn, có nhiều niềm vui nho nhỏ, và tôi thấy mình cân bằng hơn.</blockquote>
+      </article>
+      <article class="story-card">
+        <div>
+          <span class="who" data-vi="Chị A · 37 tuổi" data-en="Ms. A · 37">Chị A · 37 tuổi</span>
+          <span class="ctx" data-vi="Vượt qua trầm cảm sau giai đoạn hôn nhân tổn thương" data-en="Moved through depression after a painful marriage">Vượt qua trầm cảm sau giai đoạn hôn nhân tổn thương</span>
+        </div>
+        <blockquote class="reflection" data-vi="Tôi học được rằng đúng thời điểm và đúng con người có thể hóa giải một vấn đề — của riêng mình hay của tập thể. Không phải lúc nào cũng là khó khăn, và con người không phải lúc nào cũng như ta nghĩ. Hãy cho mình một khoảng lặng để quan sát, đừng vội phản ứng — như một quãng trú trong chiếc kén của riêng mình, chỉ giữ kết nối vừa đủ để cuộc sống thường nhật vẫn tiếp diễn." data-en="I learned that the right time and the right person can resolve a problem — your own or a shared one. Not every moment is a hardship, and people aren't always the way we assume. Give yourself a quiet pause to observe, don't react in a rush — like a while spent inside your own cocoon, keeping just enough connection for daily life to go on.">Tôi học được rằng đúng thời điểm và đúng con người có thể hóa giải một vấn đề — của riêng mình hay của tập thể. Không phải lúc nào cũng là khó khăn, và con người không phải lúc nào cũng như ta nghĩ. Hãy cho mình một khoảng lặng để quan sát, đừng vội phản ứng — như một quãng trú trong chiếc kén của riêng mình, chỉ giữ kết nối vừa đủ để cuộc sống thường nhật vẫn tiếp diễn.</blockquote>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCK 2 · Advice to prospective clients (Chị M · A) -->
+<section class="sec bg-alt">
+  <div class="wrap">
+    <p class="eyebrow" data-vi="Lời nhắn" data-en="A word of advice">Lời nhắn</p>
+    <h2 class="h2" data-vi="Nhắn nhủ trước khi cân nhắc trị liệu" data-en="Before you consider therapy">Nhắn nhủ trước khi cân nhắc trị liệu</h2>
+    <p class="t-note" data-vi="Đôi lời từ những người đã đi qua hành trình trị liệu, dành cho ai đang cân nhắc bắt đầu." data-en="A few words from people who've been through therapy, for anyone thinking of starting.">Đôi lời từ những người đã đi qua hành trình trị liệu, dành cho ai đang cân nhắc bắt đầu.</p>
+    <div class="advice-grid">
+      <article class="advice-card">
+        <span class="lbl" data-vi="Lời khuyên" data-en="Advice">Lời khuyên</span>
+        <p data-vi="Trị liệu có mang lại kết quả hay không phụ thuộc nhiều vào ba yếu tố: mức độ bạn cảm nhận được sự thấu cảm từ nhà trị liệu, sự chân thành và cởi mở khi chia sẻ, và nỗ lực tự thân của chính bạn. Khi đã nghĩ đến việc bắt đầu, hãy cân nhắc kỹ ba yếu tố ấy." data-en="Whether therapy works depends a lot on three things: how much you feel your therapist's empathy, how honestly and openly you share, and your own effort. If you're thinking about starting, weigh those three carefully first.">Trị liệu có mang lại kết quả hay không phụ thuộc nhiều vào ba yếu tố: mức độ bạn cảm nhận được sự thấu cảm từ nhà trị liệu, sự chân thành và cởi mở khi chia sẻ, và nỗ lực tự thân của chính bạn. Khi đã nghĩ đến việc bắt đầu, hãy cân nhắc kỹ ba yếu tố ấy.</p>
+        <footer data-vi="— Chị M · 41 tuổi" data-en="— Ms. M · 41">— Chị M · 41 tuổi</footer>
+      </article>
+      <article class="advice-card">
+        <span class="lbl" data-vi="Lời khuyên" data-en="Advice">Lời khuyên</span>
+        <p data-vi="Cho bản thân 14 ngày để thư giãn, bắt đầu bằng những mục tiêu nhỏ: ngủ sớm hơn 30 phút, đọc một trang sách, xem một tiểu phẩm hài, đi bộ 10 phút, gặp một người bạn cũ… để thoát khỏi những vòng lặp của suy nghĩ và cảm xúc bất ổn. Nếu sau đó vẫn thấy không vui, kiệt sức, hãy tìm đến chuyên gia — người có góc nhìn và lộ trình để cùng bạn cải thiện cảm xúc và tìm lại ý nghĩa, giá trị của mình trong chính cuộc đời mình." data-en="Give yourself 14 days to unwind, starting with tiny goals: sleep 30 minutes earlier, read one page, watch a comedy skit, walk for 10 minutes, meet an old friend… to step out of the loops of unsettled thoughts and feelings. If you still feel low or exhausted afterward, reach out to a professional — someone with the perspective and a roadmap to help you improve how you feel and rediscover your meaning and worth in your own life.">Cho bản thân 14 ngày để thư giãn, bắt đầu bằng những mục tiêu nhỏ: ngủ sớm hơn 30 phút, đọc một trang sách, xem một tiểu phẩm hài, đi bộ 10 phút, gặp một người bạn cũ… để thoát khỏi những vòng lặp của suy nghĩ và cảm xúc bất ổn. Nếu sau đó vẫn thấy không vui, kiệt sức, hãy tìm đến chuyên gia — người có góc nhìn và lộ trình để cùng bạn cải thiện cảm xúc và tìm lại ý nghĩa, giá trị của mình trong chính cuộc đời mình.</p>
+        <footer data-vi="— Chị A · 37 tuổi" data-en="— Ms. A · 37">— Chị A · 37 tuổi</footer>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCK 3 · Community feedback (workshop / media) -->
+<section class="sec">
+  <div class="wrap">
+    <p class="eyebrow" data-vi="Cộng đồng" data-en="Community">Cộng đồng</p>
+    <h2 class="h2" data-vi="Phản hồi từ học viên và thính giả" data-en="From trainees & listeners">Phản hồi từ học viên và thính giả</h2>
+    <p class="t-note" data-vi="Phản hồi từ các buổi đào tạo, workshop và chương trình phát thanh." data-en="Feedback from training sessions, workshops, and radio programs.">Phản hồi từ các buổi đào tạo, workshop và chương trình phát thanh.</p>
     <div class="tgrid">
       <blockquote class="tcard"><p data-vi="Nội dung dễ hiểu và áp dụng được luôn. Tôi từng tìm hiểu về thiền và EQ, nhưng buổi hôm qua được logic và cấu trúc hóa rất phù hợp với tôi." data-en="The content was easy to understand and immediately usable. I'd explored meditation and EQ before, but yesterday's session was logical and well-structured in a way that really fit me.">Nội dung dễ hiểu và áp dụng được luôn. Tôi từng tìm hiểu về thiền và EQ, nhưng buổi hôm qua được logic và cấu trúc hóa rất phù hợp với tôi.</p><footer data-vi="Người tham gia · Workshop với Intellect" data-en="Participant · Workshop with Intellect">Người tham gia · Workshop với Intellect</footer></blockquote>
       <blockquote class="tcard"><p data-vi="Chương trình khiến tôi nhận ra mình hay nghĩ đến điều tệ nhất trước cả khi mọi chuyện xảy ra — phần nói về “thảm họa hóa” thực sự chạm đến tôi." data-en="The program made me realize I tend to imagine the worst before anything has even happened — the part about “catastrophizing” really struck me.">Chương trình khiến tôi nhận ra mình hay nghĩ đến điều tệ nhất trước cả khi mọi chuyện xảy ra — phần nói về “thảm họa hóa” thực sự chạm đến tôi.</p><footer data-vi="Thính giả · VOV World — Doctor at Home" data-en="Listener · VOV World — Doctor at Home">Thính giả · VOV World — Doctor at Home</footer></blockquote>
@@ -528,8 +598,8 @@
     </div>
   </div>
 </section>
-<!-- CLINICAL-CLIENT TESTIMONIALS — kept for later; HIDDEN pending each client's consent to publish.
-  N.A (38) · V.H (25) · T.A (19) · M.A (44) — quotes archived in landing_copy.md. Publish individually once consent is confirmed. -->
+<!-- CLIENT STORIES above (Chị T · M · A) published with consent, anonymized (2026-07).
+  Older clinical quotes still HIDDEN pending consent: N.A (38) · V.H (25) · T.A (19) · M.A (44) — archived in landing_copy.md. -->
 
 <!-- ============ MEDIA ============ -->
 <section class="sec bg-green" id="media">
