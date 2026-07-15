@@ -114,7 +114,7 @@
   .modality{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
   /* Approach: philosophy pillars + modalities (click-to-expand) */
   .appr-sub{font:italic 500 21px/1.32 Platypi,Georgia,serif;color:var(--gold);margin:54px 0 20px;max-width:820px}
-  .acc-grid{display:grid;gap:14px}
+  .acc-grid{display:grid;gap:14px;align-items:start}
   .acc-2col{grid-template-columns:1fr 1fr}
   .acc-4col{grid-template-columns:repeat(4,1fr);align-items:start;margin-top:16px}
   .acc-item{background:var(--card);border:1px solid var(--line);border-radius:var(--r)}
@@ -260,6 +260,8 @@
   .privacy-note svg{width:15px;height:15px;flex:0 0 auto;margin-top:2px;stroke:var(--gold);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
   .privacy-note b{color:var(--green);font-weight:600}
   .btn-mail:hover{background:var(--green-deep)}
+  .btn-mail.alt{background:none;color:var(--green);border:1px solid var(--green);margin-top:12px}
+  .btn-mail.alt:hover{background:var(--green);color:var(--paper)}
 
   /* FOOTER */
   footer.ft{background:var(--green-deep);color:rgba(234,241,235,.7);padding:56px 24px;text-align:center}
