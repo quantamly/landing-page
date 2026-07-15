@@ -395,5 +395,5 @@
 .svc-bi svg{width:19px;height:19px;flex:0 0 auto;stroke:var(--gold);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .svc-bi p{font:400 13.5px/1.55 Inter,sans-serif;color:var(--muted);margin:0}
 .svc-bi b{color:var(--green);font-weight:600}
-.svc-bi-sub{font:italic 500 16.5px/1.4 Platypi,Georgia,serif;color:var(--gold);margin:12px 0 0;max-width:none;white-space:nowrap}
+.svc-bi-sub{font:italic 500 16.5px/1.4 Platypi,Georgia,serif;color:var(--gold);margin:12px 0 18px;max-width:none;white-space:nowrap}
 @media(max-width:860px){.svc-bi-sub{white-space:normal}}
