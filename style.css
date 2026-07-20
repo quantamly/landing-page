@@ -90,6 +90,22 @@
   .story .portrait{aspect-ratio:4/5;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--card)}
   .story .portrait img{width:100%;height:100%;object-fit:cover}
   .story .pcap{font:400 14px/1.6 Inter,sans-serif;color:var(--muted);margin:16px 2px 0}
+  /* Sticky right column so it fills the space beside the tall story text.
+     Capped at 400px: portrait 500 + quote + caption = ~711px, which needs
+     ~800px of viewport under the 88px nav offset. Below that the min-height
+     guard drops it back to static — a taller-than-viewport sticky block would
+     pin the quote and caption permanently below the fold. */
+  .story .story-grid>div:last-child{max-width:400px;margin-left:auto}
+  .story .story-grid .pull{margin:22px 0 0}
+  @media(min-width:981px) and (min-height:800px){
+    .story .story-grid>div:last-child{position:sticky;top:88px;align-self:start}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .story .story-grid>div:last-child{position:static;top:auto}
+  }
+  @media(max-width:980px){
+    .story .story-grid>div:last-child{max-width:420px;margin-left:0}
+  }
 
   /* APPROACH */
   .appr-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
