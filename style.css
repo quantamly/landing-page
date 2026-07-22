@@ -211,7 +211,7 @@
   .tcard p{position:relative;font:italic 400 19px/1.55 Platypi,Georgia,serif;color:var(--ink-soft);margin:28px 0 18px}
   .tcard footer{font:600 13px/1.4 Inter,sans-serif;color:var(--eyebrow);letter-spacing:.02em}
   .t-note{font:400 17px/1.7 Inter,sans-serif;color:var(--muted);margin:0 0 26px;max-width:640px}
-  .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .tcard-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
   .story-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:30px 30px 28px;display:flex;flex-direction:column}
   .story-card .who{font:600 16px/1.3 Platypi,Georgia,serif;color:var(--green)}
   .story-card .ctx{display:block;font:400 13px/1.45 Inter,sans-serif;color:var(--muted);margin-top:4px}
@@ -320,7 +320,7 @@
     .stat-grid{grid-template-columns:repeat(2,1fr);gap:24px 0}
     .stat{border-bottom:1px solid rgba(245,241,232,.16)}
     .stat:nth-child(2){border-right:0}
-    .media-grid,.tgrid,.story-grid,.advice-grid{grid-template-columns:1fr}
+    .media-grid,.tgrid,.tcard-grid,.advice-grid{grid-template-columns:1fr}
     .story-card.wide .reflection{max-width:none;font-size:18px}
     .cred-grid{grid-template-columns:1fr;gap:32px}
   }
